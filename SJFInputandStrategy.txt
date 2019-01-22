@@ -1,0 +1,29 @@
+
+    	10 process  |  arrival time  |  burst time
+
+Processes = [[0, 5], [2, 4], [1, 1], [5, 2], [8, 3], [7, 4]]
+
+Find and Start with 0
+=> 0,5
+# 5 Seconds over
+2,4 | 1,1 | 5,2 | 
+# executes shortest burst time
+=> 1,1
+# 6 Seconds over
+2,4 | 5,2 | 
+# executes shortest burst time
+=> 5,2
+# 8 Seconds over
+2,4 | 8,3 | 7,4
+# executes shortest burst time
+=>8,3
+# 11 Seconds over
+2,4 | 7,4
+# executes shortest burst time
+# equal hence compare for smaller arrival time
+=> 2,4
+# 15 Seconds over
+7,4 
+# executes shortest burst time
+=> 7,4
+
