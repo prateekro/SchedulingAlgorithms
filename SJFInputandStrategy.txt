@@ -1,3 +1,4 @@
+Strategy of SJF
 
     	10 process  |  arrival time  |  burst time
 
