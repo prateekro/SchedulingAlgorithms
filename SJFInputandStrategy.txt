@@ -1,4 +1,4 @@
-Strategy of SJF
+Strategy of SJF - Version 1
 
     	10 process  |  arrival time  |  burst time
 
